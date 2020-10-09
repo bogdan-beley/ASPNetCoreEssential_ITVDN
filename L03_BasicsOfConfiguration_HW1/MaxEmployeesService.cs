@@ -11,9 +11,9 @@ namespace L03_BasicsOfConfiguration_HW1
     {
         public string GetMaxEmployees(IEnumerable<IConfigurationSection> sections)
         {
-            var maxEmpl = sections.Max(s => int.Parse(s.GetSection("Employees").Value));
-
-            return $"Max employees: {maxEmpl}";
+            var largestCompany = sections.Where(s => int.Parse(s.GetSection("Employees").Value) == sections.Max(y => int.Parse(y.GetSection("Employees").Value))).FirstOrDefault();
+            
+            return $"The company with the largest number of employees: {largestCompany.Key} ({largestCompany.GetSection("Employees").Value})";
         }
     }
 }

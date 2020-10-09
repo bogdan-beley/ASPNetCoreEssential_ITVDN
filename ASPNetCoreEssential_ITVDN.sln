@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L01_Introduction_HW", "L01_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02_StructureOfTheBasicProjectAndMiddleware_HW1", "L02_StructureOfTheBasicProjectAndMiddleware_HW1\L02_StructureOfTheBasicProjectAndMiddleware_HW1.csproj", "{3AAFD195-C58F-4E1E-9795-8D57A31995F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02_StructureOfTheBasicProjectAndMiddleware_HW2", "L02_StructureOfTheBasicProjectAndMiddleware_HW2\L02_StructureOfTheBasicProjectAndMiddleware_HW2.csproj", "{B1EAF62C-E264-4DC7-9289-D5F262757477}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02_StructureOfTheBasicProjectAndMiddleware_HW2", "L02_StructureOfTheBasicProjectAndMiddleware_HW2\L02_StructureOfTheBasicProjectAndMiddleware_HW2.csproj", "{B1EAF62C-E264-4DC7-9289-D5F262757477}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L02_StructureOfTheBasicProjectAndMiddleware_HW3", "L02_StructureOfTheBasicProjectAndMiddleware_HW3\L02_StructureOfTheBasicProjectAndMiddleware_HW3.csproj", "{F2518158-9B17-41B1-9AF8-DC5741BB65DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L02_StructureOfTheBasicProjectAndMiddleware_HW3", "L02_StructureOfTheBasicProjectAndMiddleware_HW3\L02_StructureOfTheBasicProjectAndMiddleware_HW3.csproj", "{F2518158-9B17-41B1-9AF8-DC5741BB65DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03_BasicsOfConfiguration_HW1", "L03_BasicsOfConfiguration_HW1\L03_BasicsOfConfiguration_HW1.csproj", "{2FB1B741-927A-4EC3-AB2A-13DA52B7EAD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L03_BasicsOfConfiguration_HW1", "L03_BasicsOfConfiguration_HW1\L03_BasicsOfConfiguration_HW1.csproj", "{2FB1B741-927A-4EC3-AB2A-13DA52B7EAD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L03_BasicsOfConfiguration_HW2", "L03_BasicsOfConfiguration_HW2\L03_BasicsOfConfiguration_HW2.csproj", "{1B0D4D39-6C80-42C0-8BB9-A44226FF4226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2FB1B741-927A-4EC3-AB2A-13DA52B7EAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FB1B741-927A-4EC3-AB2A-13DA52B7EAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FB1B741-927A-4EC3-AB2A-13DA52B7EAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0D4D39-6C80-42C0-8BB9-A44226FF4226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0D4D39-6C80-42C0-8BB9-A44226FF4226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0D4D39-6C80-42C0-8BB9-A44226FF4226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0D4D39-6C80-42C0-8BB9-A44226FF4226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
