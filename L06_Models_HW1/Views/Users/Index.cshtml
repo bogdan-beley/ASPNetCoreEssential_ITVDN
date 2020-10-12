@@ -1,0 +1,44 @@
+﻿@model L06_Models_HW1.Models.User
+
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<html>
+<body>
+    <h1>Registration</h1>
+
+    <h4>User</h4>
+    <hr />
+    @using (Html.BeginForm("Index", "Users", FormMethod.Post))
+    {
+        <div>
+            @Html.LabelFor(m => m.Name)
+            @Html.EditorFor(m => m.Name)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Age)
+            @Html.EditorFor(m => m.Age)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Address)
+            @Html.EditorFor(m => m.Address)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Phone)
+            @Html.EditorFor(m => m.Phone)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Email)
+            @Html.EditorFor(m => m.Email)
+        </div>
+        <div>
+            <input type="submit" value="Send" />
+        </div>
+    }
+</body>
+</html>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

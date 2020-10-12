@@ -1,0 +1,54 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<L06_Models_HW1.Models.Product>
+
+<html>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Descripion)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)$
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <form action="~/Order/Index" method="post">
+        <p><label>How many items do you want to order?</label></p>
+        <p>
+            <input type="number" name="quantity" value="1" />
+            <input type="submit" name="Send" value="Send" />
+        </p>
+    </form>
+</body>
+</html>
