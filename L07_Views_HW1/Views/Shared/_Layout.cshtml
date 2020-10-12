@@ -1,0 +1,15 @@
+﻿@inject L07_Views_HW1.Services.ITimeService TimeServiceNow
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <p>Current time: @TimeServiceNow.GetTime()</p>
+        @RenderBody()
+    </div>
+</body>
+</html>
