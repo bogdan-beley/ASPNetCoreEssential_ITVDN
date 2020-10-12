@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L07_Views_HW1", "L07_Views_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L07_Views_HW2", "L07_Views_HW2\L07_Views_HW2.csproj", "{5D46BBC9-B434-457C-A487-BD126F328F66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L07_Views_HW3", "L07_Views_HW3\L07_Views_HW3.csproj", "{AF292983-3FEC-46C9-80A6-6B6BFE53FC1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{5D46BBC9-B434-457C-A487-BD126F328F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D46BBC9-B434-457C-A487-BD126F328F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D46BBC9-B434-457C-A487-BD126F328F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF292983-3FEC-46C9-80A6-6B6BFE53FC1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF292983-3FEC-46C9-80A6-6B6BFE53FC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF292983-3FEC-46C9-80A6-6B6BFE53FC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF292983-3FEC-46C9-80A6-6B6BFE53FC1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
