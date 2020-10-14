@@ -1,0 +1,37 @@
+﻿@model L08_Controllers_HW1.Models.FileModel
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DownloadFile</title>
+</head>
+<body>
+    <h1>Download File</h1>
+
+    <form asp-controller="File" asp-action="DownloadFile" asp-antiforgery="true">
+        <div>
+            <label asp-for="Fname">First Name:</label>
+            <input type=text asp-for="Fname" />
+        </div>
+        <div>
+            <label asp-for="Lname">Last Name:</label>
+            <input type=text asp-for="Lname" />
+        </div>
+        <div>
+            <label asp-for="FileName">File name:</label>
+            <input type=text asp-for="FileName" />
+        </div>
+        <div>
+            <input type="submit" value="Save to File" />
+        </div>
+    </form>
+</body>
+</html>
