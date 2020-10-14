@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L08_Controllers_HW2", "L08_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L09_WebApiAndRazorPages_HW1", "L09_WebApiAndRazorPages_HW1\L09_WebApiAndRazorPages_HW1.csproj", "{34D7475B-7269-4749-BA6A-D052E840AA2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L09_WebApiAndRazorPages_HW2", "L09_WebApiAndRazorPages_HW2\L09_WebApiAndRazorPages_HW2.csproj", "{F81653FE-AD94-4978-9E0A-1E2D6C514BBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{34D7475B-7269-4749-BA6A-D052E840AA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34D7475B-7269-4749-BA6A-D052E840AA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34D7475B-7269-4749-BA6A-D052E840AA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F81653FE-AD94-4978-9E0A-1E2D6C514BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81653FE-AD94-4978-9E0A-1E2D6C514BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81653FE-AD94-4978-9E0A-1E2D6C514BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81653FE-AD94-4978-9E0A-1E2D6C514BBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
