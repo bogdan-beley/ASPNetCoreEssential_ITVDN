@@ -37,6 +37,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L07_Views_HW3", "L07_Views_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L08_Controllers_HW1", "L08_Controllers_HW1\L08_Controllers_HW1.csproj", "{88ECB2CF-6112-4F40-AA34-D1554FDC4EE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L08_Controllers_HW2", "L08_Controllers_HW2\L08_Controllers_HW2.csproj", "{089F0AB4-C59E-4E6C-9F1D-7B666D1A6268}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{88ECB2CF-6112-4F40-AA34-D1554FDC4EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88ECB2CF-6112-4F40-AA34-D1554FDC4EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88ECB2CF-6112-4F40-AA34-D1554FDC4EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089F0AB4-C59E-4E6C-9F1D-7B666D1A6268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089F0AB4-C59E-4E6C-9F1D-7B666D1A6268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089F0AB4-C59E-4E6C-9F1D-7B666D1A6268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089F0AB4-C59E-4E6C-9F1D-7B666D1A6268}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
